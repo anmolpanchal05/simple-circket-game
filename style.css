@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+}
+#button_container {
+    margin-top: 15vh;
+    margin-left: 23%;
+    display: block;
+}
+#button{
+    margin-left: 250px;
+}
+.buttons {
+    background-color: rgb(61, 232, 175);
+    border-radius: 15px;
+    margin-left: 20px;
+    border: none;
+    font-size: 30px;
+    font-style: bold;
+    padding: 10px 40px;
+    align-self: center;
+}
+h1 {
+    font-size: 100px;
+}
+#result_score_container{
+    border: 2px solid black ;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.game_result{
+    font-size: 15px;
+    border: 2px none;
+    border-radius: 50px;
+    height: 250px;
+    width: 300px;
+    padding: 70px 40px;
+    background-color: #3498db;
+    box-shadow: 
+      10px 10px 20px rgba(0, 0, 0, 0.2),
+      -10px -10px 20px rgba(255, 255, 255, 0.5);
+}
